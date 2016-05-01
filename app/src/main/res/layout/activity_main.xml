@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:float="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/blah"
+
+                float:fletPadding="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Runame"
+                    android:singleLine="true"
+                    android:inputType="textNoSuggestions"
+
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+
+
+                    android:hint="Username" />
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                float:fletPaddingBottom="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Rpword"
+                    android:hint="Password"
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/ic_more_horiz_black_24dp"
+                    android:inputType="textPassword" />
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                float:fletPaddingBottom="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Remail"
+                    android:hint="Email"
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    />
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="signup"
+                android:id="@+id/signup"
+
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
